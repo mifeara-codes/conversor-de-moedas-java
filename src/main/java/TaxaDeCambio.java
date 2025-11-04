@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public record TaxaDeCambio() {
+public record TaxaDeCambio(String base_code,
+                           String target_code,
+                           double conversion_rate) {
 }
